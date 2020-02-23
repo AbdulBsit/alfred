@@ -1,0 +1,177 @@
+{% extends 'home/basic.html' %}
+{% block title %} Products | Trilingo{% endblock %}
+{% load static %}
+{% block body %}
+<div class="breadcrumb-area">
+    <div class="container h-100">
+        <div class="row h-100 align-items-end">
+            <div class="col-12">
+                <div class="breadcumb--con">
+                    <h2 class="title">Contact</h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/home"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Background Curve -->
+    <div class="breadcrumb-bg-curve">
+        <img src="{% static 'img/core-img/curve-5.png' %}" alt="">
+    </div>
+</div>
+<!-- ***** Breadcrumb Area End ***** -->
+<!-- ***** Contact Area Start ***** -->
+<section class="uza-contact-area section-padding-80">
+    <div class="container">
+        <div class="row justify-content-between">
+            <!-- Contact Form -->
+            <div class="col-12 col-lg-8">
+                <div class="uza-contact-form mb-80">
+                    <div class="contact-heading mb-50">
+                        <h4>Thank you for your interest. <br>Please fill out the form below to inquire about our work in Digital.</h4>
+                    </div>
+                    <form method="post" action="/home/contact">{% csrf_token %}
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mb-30" id="name" name="name" placeholder="Full Name" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mb-30" id="
+                                    email" name="email" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mb-30" id="phone" name="phone" placeholder="Phone" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mb-30" id="organization" name="organization" placeholder="Organization">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control mb-30" id="message" name="message" rows="8" cols="80" placeholder="Message" required></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <button type="submit" class="btn uza-btn btn-3 mt-15">submit</button>
+                                    <!-- <button class="btn uza-btn btn-3 mt-15">Contact Us</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Single Contact Card -->
+            <div class="col-12 col-lg-3">
+                <div class="contact-sidebar-area mb-80">
+                    <!-- Single Sidebar Area -->
+                    <div class="single-contact-card mb-50">
+                        <h4>Contact Us</h4>
+                        <h3>(+91) 9199 769 697</h3>
+                        <h6>hello.alfred@gmail.com</h6>
+                        <h6>Mon - Fri: 9:00 - 19:00 <br>Closed on Weekends</h6>
+                    </div>
+                    <!-- Single Sidebar Area -->
+                    <div class="single-contact-card mb-50">
+                        <h3>Jharkhand</h3>
+                        <h6>613 Niche Chowk, Rd 03, Lobin Bagaan, Khunti, Ranchi</h6>
+                    </div>
+                    <!-- Single Sidebar Area -->
+                    <div class="single-contact-card mb-50">
+                        <h3>Telengana</h3>
+                        <h6>101 UCO Bank Lane, Vinayak Nagar, Gacchibowli, Hyderabad</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Google Maps -->
+            <div class="col-12">
+                <div class="google-maps">
+                    <iframe src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=613%2C%20Road%2003%2C%20Lobin%20Bagaan+(Alfred%20Technologies)&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Draw map route</a></iframe></div><br />
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!-- ***** Contact Area End ***** -->
+<!-- ***** Footer Area Start ***** -->
+<footer class="footer-area section-padding-80-0">
+    <div class="container">
+        <div class="row justify-content-between">
+            <!-- Single Footer Widget -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-footer-widget mb-80">
+                    <!-- Widget Title -->
+                    <h4 class="widget-title">Contact Us</h4>
+                    <!-- Footer Content -->
+                    <div class="footer-content mb-15">
+                        <h5>+91 9199769697</h5>
+                        <p><b>alfredtechnologies@gmail.com</b></p>
+                        <p>Sushma niketan 613 Rd 03 Ward 13 Khunti, Ranchi, JH, IN <br> </p>
+                    </div>
+                    <p class="mb-0">Mon - Fri: 9:00 - 19:00 <br>
+                        Closed on Weekends</p>
+                </div>
+            </div>
+            <!-- Single Footer Widget -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-footer-widget mb-80">
+                    <!-- Widget Title -->
+                    <h4 class="widget-title">Products</h4>
+                    <!-- Nav -->
+                    <nav>
+                        <ul class="our-link">
+                            <li><a href="/home/trilingo">Trilingo</a></li>
+                            <li><a href="/home/herculesStore">Hercules Store</a></li>
+                            <li><a href="/home/tribalMatrimony">Tribal Matrimony</a></li>
+                            <li><a href="/home/mundaDhaba">Munda Dhaba</a></li>
+                            <li><a href="/home/jharkhandmatrimony">Jharkhand Matrimony</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- Single Footer Widget -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-footer-widget mb-80">
+                    <!-- Widget Title -->
+                    <h4 class="widget-title">About</h4>
+                    <!-- Nav -->
+                    <nav>
+                        <ul class="our-link">
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Mission</a></li>
+                            <li><a href="#">Philosophy</a></li>
+                            <li><a href="#">Internship</a></li>
+                            <li><a href="#">Volunteer</a></li>
+                            <li><a href="#">Team</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- Single Footer Widget -->
+        </div>
+    </div>
+</footer>
+{% endblock %}
+
+{% block js %}
+<script>
+{% if done %}
+alert('Thanks for Contacting Us We will resolve your query Shortly');
+
+document.location = "/home/contact"; 
+{% endif %}
+</script>
+{% endblock %}

@@ -1,0 +1,178 @@
+{% extends 'home/basic.html' %}
+{% block title %} Products | Trilingo{% endblock %}
+{% load static %}
+{% block body %}
+
+<!-- ***** Breadcrumb Area Start ***** -->
+<div class="breadcrumb-area">
+    <div class="container h-100">
+        <div class="row h-100 align-items-end">
+            <div class="col-12">
+                <div class="breadcumb--con">
+                    <h2 class="title">Career</h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/home"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="breadcrumb-item"><a href="/home/career"><i></i>Career</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Team</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Background Curve -->
+    <div class="breadcrumb-bg-curve">
+        <img src="{% static 'img/core-img/curve-5.png' %}" alt="">
+    </div>
+</div>
+<!-- ***** Breadcrumb Area End ***** -->
+<!-- ***** Contact Area Start ***** -->
+<section class="uza-contact-area section-padding-80">
+    <div class="container">
+        <div class="row justify-content-between">
+            <!-- Contact Form -->
+            <div class="col-12 col-lg-8">
+                <div class="section-heading mb-5">
+                    <p>We put our interns first, and believe that if we take care of their growth and learning, the product and mission will follow.</p>
+                </div>
+                <div class="uza-contact-form mb-80">
+                    <form method="post" action="intern_linguist.php">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mb-30" name="firstname" placeholder="First Name" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mb-30" name="lastname" placeholder="Last Name" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mb-30" name="phone" placeholder="Phone" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mb-30" name="email" placeholder="Email">
+                                </div>
+                            </div>
+                            <h5>Share atleast 3 of your online profile.</h5>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mb-30" name="linkedin" placeholder="LinkedIn URL">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mb-30" name="github" placeholder="GitHub  URL">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mb-30" name="portfolio" placeholder="Portfolio  URL">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mb-30" name="other" placeholder="Other URL">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mb-30" name="twitter" placeholder="Twitter URL">
+                                </div>
+                            </div>
+                            <h5>What are 3 reasons you're excited to work at Alfred? </h5>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control mb-30" name="aspiration" rows="8" cols="80" placeholder=""></textarea>
+                                </div>
+                            </div>
+                            <h5>What skills and experience do you bring that will make you successful in this role?</h5>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control mb-30" name="skills" rows="8" cols="80" placeholder=""></textarea>
+                                </div>
+                            </div>
+                            <h5>What is the one project/product you have worked on that you are really proud of ?</h5>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control mb-30" name="project" rows="8" cols="80" placeholder=""></textarea>
+                                </div>
+                            </div>
+                            <h5>What tech stack do you currently work on?</h5>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control mb-30" name="techstack" rows="8" cols="80" placeholder=""></textarea>
+                                </div>
+                            </div>
+                            <h5>Which academic year are you in?</h5>
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mb-30" name="education" placeholder="">
+                                </div>
+                            </div>
+                            <h5>When are you available for the internship? (expected start and end dates.)</h5>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control mb-30" name="availablity" rows="8" cols="80" placeholder=""></textarea>
+                                </div>
+                            </div>
+                            <h5>Share links to code samples for your previous work.</h5>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control mb-30" name="protfoliolink" rows="8" cols="80" placeholder=""></textarea>
+                                </div>
+                            </div>
+                            <h5>If you have contributed to open source, share code commit links.</h5>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control mb-30" name="opensourcecommit" rows="8" cols="80" placeholder=""></textarea>
+                                </div>
+                            </div>
+                            <h5>Add a cover letter or anything you want to share.</h5>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control mb-30" name="additionalinfo" rows="8" cols="80" placeholder=""></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <button type="submit" class="btn uza-btn btn-3 mt-15">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Single Contact Card -->
+            <div class="col-12 col-lg-3">
+                <div class="contact-sidebar-area mb-80">
+                    <!-- Single Sidebar Area -->
+                    <div class="single-contact-card mb-50">
+                        <h4>Contact Us</h4>
+                        <h3>(+91) 9199 769 697</h3>
+                        <h6>hello.alfred@gmail.com</h6>
+                        <h6>Mon - Fri: 9:00 - 19:00 <br>Closed on Weekends</h6>
+                    </div>
+                    <!-- Single Sidebar Area -->
+                    <div class="single-contact-card mb-50">
+                        <h3>Jharkhand</h3>
+                        <h6>613 Niche Chowk, Rd 03, Lobin Bagaan, Khunti, Ranchi</h6>
+                    </div>
+                    <!-- Single Sidebar Area -->
+                    <div class="single-contact-card mb-50">
+                        <h3>Telengana</h3>
+                        <h6>101 UCO Bank Lane, Vinayak Nagar, Gacchibowli, Hyderabad</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Contact Area End ***** -->
+
+{% endblock %}

@@ -1,0 +1,111 @@
+{% extends 'home/basic.html' %}
+{% block title %} Products | Trilingo{% endblock %}
+{% load static %}
+{% block body %}
+<div class="breadcrumb-area">
+    <div class="container h-100">
+        <div class="row h-100 align-items-end">
+            <div class="col-12">
+                <div class="breadcumb--con">
+                    <h2 class="title">Select Intern</h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Select Intern</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Background Curve -->
+    <div class="breadcrumb-bg-curve">
+        <img src="{% static 'img/core-img/curve-5.png' %}" alt="">
+    </div>
+</div>
+<!-- ***** Breadcrumb Area End ***** -->
+<!-- ***** Contact Area Start ***** -->
+<section class="uza-contact-area section-padding-80">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-12 col-lg-8">
+                <div class="uza-contact-form mb-80">
+                    <div class="contact-heading mb-50">
+                        <h4>Assign Third Work For Applicant. <br></h4>
+                    </div>
+                    <form action="/home/selectintern3Q12rty3" method="post">{% csrf_token %}
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label>Applicattion Id</label>
+                                    <input type="app_id" class="form-control mb-30" id="app_id" name="app_id" placeholder="Applicattion Id" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label>Task 3: Details</label>
+                                    <input type="text" class="form-control mb-30" id="task3name" name="task3name" placeholder="Task 3 Details" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label>Task 3: Link</label>
+                                    <input type="text" class="form-control mb-30" id="task3link" name="task3link" placeholder="Task 3 Link" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label>Enter Applicant Email</label>
+                                    <input type="email" class="form-control mb-30" id="applicantEmail" name="applicantEmail" placeholder="Applicants Email" required>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn uza-btn btn-3 mt-15">Submit</button>
+                    </form>
+                       <a href="/home/viewsolution3Q12rty3"><button class="btn uza-btn btn-3 mt-15">View Solution 3</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="uza-contact-area section-padding-80">
+    <div class="container">
+        <div class="row justify-content-between">
+            <!-- Contact Form -->
+            <div class="col-12 col-lg-8">
+            </div>
+        </div>
+    </div>
+</section>
+<br><br>
+<hr>
+<section class="uza-contact-area section-padding-80">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-12 col-lg-3">
+                <div class="contact-sidebar-area mb-80">
+                    <!--  Single Sidebar Area
+                    -->
+                    <div class="single-contact-card mb-50">
+                        <h4>Contact Us</h4>
+                        <h3>(+91) 9199 769 697</h3>
+                        <h6>hello.alfred@gmail.com</h6>
+                        <h6>Mon - Fri: 9:00 - 19:00 <br>Closed on Weekends</h6>
+                    </div>
+                    <!-- Single Sidebar Area
+                     -->
+                    <div class="single-contact-card mb-50">
+                        <h3>Jharkhand</h3>
+                        <h6>613 Niche Chowk, Rd 03, Lobin Bagaan, Khunti, Ranchi</h6>
+                    </div>
+                    <!-- Single Sidebar Area
+                     -->
+                    <div class="single-contact-card mb-50">
+                        <h3>Telengana</h3>
+                        <h6>101 UCO Bank Lane, Vinayak Nagar, Gacchibowli, Hyderabad</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+{% endblock %}

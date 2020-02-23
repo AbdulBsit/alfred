@@ -1,0 +1,384 @@
+{% extends 'home/basic.html' %}
+{% block title %} Products | Trilingo{% endblock %}
+{% load static %}
+{% block body %}
+<!-- ***** Breadcrumb Area Start ***** -->
+<div class="breadcrumb-area">
+    <div class="container h-100">
+        <div class="row h-100 align-items-end">
+            <div class="col-12">
+                <div class="breadcumb--con">
+                    <h2 class="title">Community</h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/home"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Community</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ***** Breadcrumb Area End ***** -->
+<!-- ****** Gallery Area Start ****** -->
+<section class="uza-portfolio-area section-padding-10">
+    <!-- Section Heading -->
+    <div class="col-12">
+        <div class="section-heading text-center"> <br> <br>
+            <h2>MEET THE TEAM</h2>
+            <p>Join us and be a part in shaping the future. Because some deeds are noble.</p>
+        </div>
+    </div>
+    <!-- Portfolio Menu -->
+    <div class="portfolio-menu text-center mb-40">
+        <!-- ***** Border Bottom ***** -->
+        <div class="container">
+            <div class="border-bottom"></div> <br>
+        </div>
+        <button class="btn active" data-filter="*">All</button>
+        <button class="btn" data-filter=".intern">Frontend</button>
+        <button class="btn" data-filter=".team">Backend</button>
+        <button class="btn" data-filter=".intern">Data Science</button>
+        <button class="btn" data-filter=".volunteer">Research</button>
+        <button class="btn" data-filter=".team">Design</button>
+        <button class="btn" data-filter=".volunteer">Linguist</button>
+        <br> <br>
+        <div class="container">
+            <div class="border-bottom"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row uza-portfolio">
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item intern">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <p>INTERNSHIP </p>
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item volunteer">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item team">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item intern">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item intern">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item volunteer">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item team">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item intern">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item intern">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item intern">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item intern">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item intern">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item intern">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item intern">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item intern">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ****** Gallery Area End ****** -->
+<!-- ***** About Us Area Start ***** -->
+<section class="uza-about-us-area section-padding-00">
+    <div class="container">
+        <br><br>
+        <!-- About Us Content -->
+        <div class="section-heading mb-5">
+            <h2>JOIN US !</h2>
+        </div>
+        <div class="about-us-content mb-10">
+            <div class="about-tab-area">
+                <ul class="nav nav-tabs mb-50" id="mona_modelTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="tabA" data-toggle="tab" href="#tab-A" role="tab" aria-controls="tab-A" aria-selected="true">Design</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tabB" data-toggle="tab" href="#tab-B" role="tab" aria-controls="tab-B" aria-selected="false">Technology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tabC" data-toggle="tab" href="#tab-C" role="tab" aria-controls="tab-C" aria-selected="false">Research</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Mona Tab Content -->
+            <div class="about-tab-content">
+                <div class="tab-content" id="mona_modelTabContent">
+                    <div class="tab-pane fade show active" id="tab-A" role="tabpanel" aria-labelledby="tabA">
+                        <!-- Tab Content Text -->
+                        <div class="tab-content-text">
+                            <h3> What will you do ? </h3>
+                            <p>We are deeply inspired by the work of Sir Alfred Nobel. Our vision is to make the world a better place. sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna liquyam erat.</p>
+                            <h3> What makes you a match for us? </h3>
+                            <p>We are deeply inspired by the work of Sir Alfred Nobel. Our vision is to make the world a better place. sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna liquyam erat.</p>
+                            <a href="/home/apply" class="btn uza-btn mt-30">Creative Writing</a> <a href="/home/apply" class="btn uza-btn mt-30">Graphic Design</a> <a href="/home/apply" class="btn uza-btn mt-30">Strategy & Operations</a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show " id="tab-B" role="tabpanel" aria-labelledby="tabB">
+                        <!-- Tab Content Text -->
+                        <div class="tab-content-text">
+                            <h3> What will you do ? </h3>
+                            <p>We are deeply inspired by the work of Sir Alfred Nobel. Our vision is to make the world a better place. sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna liquyam erat.</p>
+                            <h3> What makes you a match for us? </h3>
+                            <p>We are deeply inspired by the work of Sir Alfred Nobel. Our vision is to make the world a better place. sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna liquyam erat.</p>
+                            <a href="/home/apply" class="btn uza-btn mt-30">Frontend Engineering</a> <a href="/home/apply" class="btn uza-btn mt-30">Backend Engineering</a> <a href="/home/apply" class="btn uza-btn mt-30">Products Engineering</a> <a href="/home/apply" class="btn uza-btn mt-30">Data Science</a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show " id="tab-C" role="tabpanel" aria-labelledby="tabC">
+                        <!-- Tab Content Text -->
+                        <div class="tab-content-text">
+                            <h3> What will you do ? </h3>
+                            <p>We are deeply inspired by the work of Sir Alfred Nobel. Our vision is to make the world a better place. sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna liquyam erat.</p>
+                            <h3> What makes you a match for us? </h3>
+                            <p>We are deeply inspired by the work of Sir Alfred Nobel. Our vision is to make the world a better place. sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna liquyam erat.</p>
+                            <a href="/home/apply" class="btn uza-btn mt-30">Anthropology</a> <a href="/home/apply" class="btn uza-btn mt-30">Linguist</a> <a href="/home/apply" class="btn uza-btn mt-30">Education</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Background Pattern -->
+    <div class="about-bg-pattern">
+        <img src="{% static 'img/core-img/curve-2.png' %}" alt="">
+    </div>
+</section>
+<!-- ***** About Us Area End ***** -->
+{% endblock %}

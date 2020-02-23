@@ -1,0 +1,392 @@
+{% extends 'home/basic.html' %}
+{% block title %} Products | Trilingo{% endblock %}
+{% load static %}
+{% block body %}
+<!-- ***** Breadcrumb Area Start ***** -->
+<div class="breadcrumb-area">
+    <div class="container h-100">
+        <div class="row h-100 align-items-end">
+            <div class="col-12">
+                <div class="breadcumb--con">
+                    <h2 class="title">Services</h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/home"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Services</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Background Curve -->
+    <div class="breadcrumb-bg-curve">
+        <img src="{% static 'img/core-img/curve-5.png' %}" alt="">
+    </div>
+</div>
+<!-- ***** Breadcrumb Area End ***** -->
+<!-- ***** Services Area Start ***** -->
+<section id="service" class="uza-services-area section-padding-80-0">
+    <div class="container">
+        <!-- Section Heading -->
+        <div class="col-12">
+            <div class="section-heading text-center">
+                <h2>SERVICES</h2>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Single Service Area -->
+            <div class="col-12 col-lg-4">
+                <div class="single-service-area mb-80">
+                    <!-- Service Icon -->
+                    <div class="service-icon">
+                        <i class="icon_pencil-edit"></i>
+                    </div>
+                    <h5>Design</h5>
+                    <p>Our designs are just what they look and feel like. It's also how it works.</p>
+                </div>
+            </div>
+            <!-- Single Service Area -->
+            <div class="col-12 col-lg-4">
+                <div class="single-service-area mb-80">
+                    <!-- Service Icon -->
+                    <div class="service-icon">
+                        <i class="icon_cogs"></i>
+                    </div>
+                    <h5>Technology</h5>
+                    <p>It is not that we use technology, we live to develope technology. </p>
+                </div>
+            </div>
+            <!-- Single Service Area -->
+            <div class="col-12 col-lg-4">
+                <div class="single-service-area mb-80">
+                    <!-- Service Icon -->
+                    <div class="service-icon">
+                        <i class="icon_genius"></i>
+                    </div>
+                    <h5>Research</h5>
+                    <p>For us it's what we do when you don’t know what we are doing.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Services Area End ***** -->
+<!-- ****** Gallery Area Start ****** -->
+<section class="uza-portfolio-area section-padding-10">
+    <!-- Portfolio Menu -->
+    <div class="portfolio-menu text-center mb-80">
+        <!-- ***** Border Bottom ***** -->
+        <div class="container">
+            <div class="border-bottom"></div> <br>
+        </div>
+        <button class="btn active" data-filter="*">All</button>
+        <button class="btn" data-filter=".design">Design</button>
+        <button class="btn" data-filter=".Technology">Technology</button>
+        <button class="btn" data-filter=".research">Research</button>
+        <br> <br>
+        <div class="container">
+            <div class="border-bottom"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row uza-portfolio">
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item design">
+                <div class="single-portfolio-slide">
+                    <img src="{% static 'img/bg-img/3.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Indiginus</h4>
+                        <p>Graphic , website, app , UI/UX, product</p>
+                    </div>
+                    <!-- View More -->
+                    <div class="view-more-btn">
+                        <a href="#"><i class="arrow_right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item design">
+                <div class="single-portfolio-slide">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- View More -->
+                    <div class="view-more-btn">
+                        <a href="#"><i class="arrow_right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item design">
+                <div class="single-portfolio-slide">
+                    <img src="{% static 'img/bg-img/5.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Superwave Media</h4>
+                        <p>Web and mobile based solutions. Platform development.</p>
+                    </div>
+                    <!-- View More -->
+                    <div class="view-more-btn">
+                        <a href="#"><i class="arrow_right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item design">
+                <div class="single-portfolio-slide">
+                    <img src="{% static 'img/bg-img/6.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>The Great Indian Backpacker</h4>
+                        <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est</p>
+                    </div>
+                    <!-- View More -->
+                    <div class="view-more-btn">
+                        <a href="#"><i class="arrow_right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item Technology">
+                <div class="single-portfolio-slide">
+                    <img src="{% static 'img/bg-img/10.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Just Natural Please</h4>
+                        <p>Strategic implementations to boost growth.</p>
+                    </div>
+                    <!-- View More -->
+                    <div class="view-more-btn">
+                        <a href="#"><i class="arrow_right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item research">
+                <div class="single-portfolio-slide">
+                    <img src="{% static 'img/bg-img/11.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>IIIT - Hyderabad</h4>
+                        <p>Promotion and marketing</p>
+                    </div>
+                    <!-- View More -->
+                    <div class="view-more-btn">
+                        <a href="#"><i class="arrow_right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item Technology">
+                <div class="single-portfolio-slide">
+                    <img src="{% static 'img/bg-img/12.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Aayoba</h4>
+                        <p>Put information related to digital design work.</p>
+                    </div>
+                    <!-- View More -->
+                    <div class="view-more-btn">
+                        <a href="#"><i class="arrow_right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item Technology">
+                <div class="single-portfolio-slide">
+                    <img src="{% static 'img/bg-img/4.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Vir Wholesale</h4>
+                        <p>Put information related to architectural design work.</p>
+                    </div>
+                    <!-- View More -->
+                    <div class="view-more-btn">
+                        <a href="#"><i class="arrow_right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ****** Gallery Area End ****** -->
+<!-- ***** About Us Area Start ***** -->
+<section class="uza-about-us-area section-padding-00">
+    <div class="container">
+        <div class="about-us-content mb-10">
+            <!-- Mona Tab Content -->
+            <div class="about-tab-content">
+                <div class="tab-content" id="mona_modelTabContent">
+                    <div class="tab-pane fade show active" role="tabpanel">
+                        <!-- Tab Content Text -->
+                        <div align="center" class="tab-content-text">
+                            <a href="/home/portfolio" class="btn uza-btn mt-10">Portfolio</a><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Background Pattern -->
+    <div class="about-bg-pattern">
+        <img src="{% static 'img/core-img/curve-2.png' %}" alt="">
+    </div>
+</section>
+<!-- ***** About Us Area End ***** -->
+<!-- ***** CTA, Testimonial & CFA Area Start ***** -->
+<section class="cta-testimonial-cfa-area">
+    <!-- Background Curve -->
+    <div class="cta-testimonial-cfa-bg-curve">
+        <img src="{% static 'img/core-img/curve-6.png' %}" alt="">
+    </div>
+    <!-- ***** Border Bottom ***** -->
+    <div class="container">
+        <br> <br>
+        <div class="border-bottom"></div> <br> <br>
+    </div>
+    <br>
+    <!-- ***** Client Feedback Area Start ***** -->
+    <div class="clients-feedback-area section-padding-0-80 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Testimonial Slides -->
+                    <div class="testimonial-slides owl-carousel">
+                        <!-- Single Testimonial Slide -->
+                        <div class="single-testimonial-slide d-flex align-items-center">
+                            <!-- Testimonial Thumbnail -->
+                            <div class="testimonial-thumbnail">
+                                <img src="{% static 'img/bg-img/7.jpg' %}" alt="">
+                            </div>
+                            <!-- Testimonial Content -->
+                            <div class="testimonial-content">
+                                <h4>“Colorlib Ltd’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and profitable.”</h4>
+                                <!-- Ratings -->
+                                <div class="ratings">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                </div>
+                                <!-- Author Info -->
+                                <div class="author-info">
+                                    <h5>Joana Silva<span>- Just Natural Please</span></h5>
+                                </div>
+                                <!-- Quote Icon -->
+                                <div class="quote-icon"><img src="{% static 'img/core-img/quote.png' %}" alt=""></div>
+                            </div>
+                        </div>
+                        <!-- Single Testimonial Slide -->
+                        <div class="single-testimonial-slide d-flex align-items-center">
+                            <!-- Testimonial Thumbnail -->
+                            <div class="testimonial-thumbnail">
+                                <img src="{% static 'img/bg-img/23.jpg' %}" alt="">
+                            </div>
+                            <!-- Testimonial Content -->
+                            <div class="testimonial-content">
+                                <h4>“Colorlib Ltd’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and profitable.”</h4>
+                                <!-- Ratings -->
+                                <div class="ratings">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                </div>
+                                <!-- Author Info -->
+                                <div class="author-info">
+                                    <h5>Rajat Harlalka<span>- Indiginous</span></h5>
+                                </div>
+                                <!-- Quote Icon -->
+                                <div class="quote-icon"><img src="{% static 'img/core-img/quote.png' %}" alt=""></div>
+                            </div>
+                        </div>
+                        <!-- Single Testimonial Slide -->
+                        <div class="single-testimonial-slide d-flex align-items-center">
+                            <!-- Testimonial Thumbnail -->
+                            <div class="testimonial-thumbnail">
+                                <img src="{% static 'img/bg-img/24.jpg' %}" alt="">
+                            </div>
+                            <!-- Testimonial Content -->
+                            <div class="testimonial-content">
+                                <h4>“Colorlib Ltd’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and profitable.”</h4>
+                                <!-- Ratings -->
+                                <div class="ratings">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                </div>
+                                <!-- Author Info -->
+                                <div class="author-info">
+                                    <h5>Mainak Roy<span>- Simple Education Foundation</span></h5>
+                                </div>
+                                <!-- Quote Icon -->
+                                <div class="quote-icon"><img src="{% static 'img/core-img/quote.png' %}" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Client Feedback Area End ***** -->
+</section>
+<!-- ***** CTA, Testimonial & CFA Area End ***** -->
+<!-- ***** Contact Area Start ***** -->
+<section class="uza-contact-area section-padding-10">
+    <div class="container">
+        <!-- Border Bottom -->
+        <div class="border-line"></div>
+        <br><br>
+        <!-- Contact Form -->
+        <div class="col-12">
+            <div class="uza-contact-form mb-80">
+                <div class="contact-heading mb-50">
+                    <h4>REQUEST FOR SERVICE<br>Please fill out the form below so we can serve you better.</h4>
+                </div>
+                <form action="servicerequest.php" method="post">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control mb-30" name="name" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input type="email" class="form-control mb-30" name="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control mb-30" name="phone" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control mb-30" name="organization" placeholder="Organization">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <textarea class="form-control mb-30" name="message" rows="8" cols="80" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn uza-btn btn-3 mt-15">submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Contact Area End ***** -->
+{% endblock %}

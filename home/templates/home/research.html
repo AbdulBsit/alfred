@@ -1,0 +1,530 @@
+{% extends 'home/basic.html' %}
+{% block title %} Products | Trilingo{% endblock %}
+{% load static %}
+{% block body %}
+<!-- ***** Breadcrumb Area Start ***** -->
+<div class="breadcrumb-area">
+    <div class="container h-100">
+        <div class="row h-100 align-items-end">
+            <div class="col-12">
+                <div class="breadcumb--con">
+                    <h2 class="title">Internship</h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">internship</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Background Curve -->
+    <div class="breadcrumb-bg-curve">
+        <img src="{% static 'img/core-img/curve-5.png' %}" alt="">
+    </div>
+</div>
+<!-- ***** Breadcrumb Area End ***** -->
+<!-- ***** About Us Area Start ***** -->
+<section class="uza-about-us-area section-padding-00">
+    <div class="container">
+        <br><br>
+        <!-- About Us Content -->
+        <div class="section-heading mb-5">
+            <h2>Design</h2>
+            <p>We put our interns first, and believe that if we take care of their growth and learning, the product and mission will follow.</p>
+        </div>
+        <div class="about-us-content mb-10">
+            <div class="about-tab-area">
+                <ul class="nav nav-tabs mb-50" id="mona_modelTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="tabA" data-toggle="tab" href="#tab-A" role="tab" aria-controls="tab-A" aria-selected="false">Creative Writing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tabE" data-toggle="tab" href="#tab-E" role="tab" aria-controls="tab-E" aria-selected="false">Graphic Design</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tabC" data-toggle="tab" href="#tab-C" role="tab" aria-controls="tab-C" aria-selected="false">Strategy & Operations</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Mona Tab Content -->
+            <div class="about-tab-content">
+                <div class="tab-content" id="mona_modelTabContent">
+                    <div class="tab-pane fade show active" id="tab-A" role="tabpanel" aria-labelledby="tabA">
+                        <!-- Tab Content Text -->
+                        <div class="tab-content-text">
+                            <h3>What will you do ? </h3>
+                            <p>Work across verticals to make the user experience on our platform simple and seamless and implement the background functionality in the most cost-effective and memory-friendly way. </p>
+                            <p>Abstract away complex data interactions with easy-to-use APIs that will power web applications and support our Engineering Team manage end-to-end of the backend for our products. </p>
+                            <p>Set up SDKs to interact with the backend over HTTP in the most secure and object-oriented way and own, scale and maintain the compute and storage infrastructure for the various product teams.</p>
+                            <h3> What makes you a match for us? </h3>
+                            <p>1 You have a desire to deepen your knowledge in current technologies as well as learn new ones.</p>
+                            <p>You care about scale, quality, structured readable code (preferably in MVC patterns), cross-platform and cross-browser issues, and module reusability, even before approaching the problem.</p>
+                            <p>You are proficient or at least have experience with technologies like Angular.js,React, PHP,Node.js, Python, MongoDB, Django, Cloud service providers(AWS/Google cloud), and Docker ecosystem. </p>
+                            <a href="/home/intern_frontend" class="btn uza-btn mt-30">Apply</a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show " id="tab-B" role="tabpanel" aria-labelledby="tabB">
+                        <!-- Tab Content Text -->
+                        <div class="tab-content-text">
+                            <h3> What will you do ? </h3>
+                            <p> research At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna liquyam erat.</p>
+                            <h3> What makes you a match for us? </h3>
+                            <p>2 We are deeply inspired by the work of Sir Alfred Nobel. Our vision is to make the world a better place. sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna liquyam erat.</p>
+                            <a href="/home/intern_backend" class="btn uza-btn mt-30">Apply</a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show " id="tab-C" role="tabpanel" aria-labelledby="tabC">
+                        <!-- Tab Content Text -->
+                        <div class="tab-content-text">
+                            <h3> What will you do ? </h3>
+                            <p>Create data tools and processes using statistical methods and models for our Data Science team to analyze trends in diverse data sets that help our users across industries.</p>
+                            <p>Work with Team to delve deep into diverse and unstructured data for driving meaningful insights to build scalable predictive models and scale our work — all while learning a new Python library to better manipulate language inconsistencies and images..</p>
+                            <p>Decode parameters from internal APIs, web scraping, or parsing PDFs as you devise novel ways of searching through the data and drawing correlations and output them in structure.</p>
+                            <h3> What makes you a match for us? </h3>
+                            <p>3 You can fluently work with R or Python and can easily manipulate massive data sets.</p>
+                            <p>You do not prefer writing the same logic of code twice, and love to write scalable, reusable code to process data and know when to use bar charts instead of line charts.</p>
+                            <p>You have some experience of working with big data problems or have a background and strong interest in economics, statistics, mathematics, computer science or related fields.</p>
+                            <a href="/home/intern_datascience" class="btn uza-btn mt-30">Apply</a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show " id="tab-D" role="tabpanel" aria-labelledby="tabD">
+                        <!-- Tab Content Text -->
+                        <div class="tab-content-text">
+                            <h3> What will you do ? </h3>
+                            <p>market We are deeply inspired by the work of Sir Alfred Nobel. Our vision is to make the world a better place. sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna liquyam erat.</p>
+                            <h3> What makes you a match for us? </h3>
+                            <p>4 We are deeply inspired by the work of Sir Alfred Nobel. Our vision is to make the world a better place. sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna liquyam erat.</p>
+                            <a href="/home/intern_linguist" class="btn uza-btn mt-30">Apply</a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show " id="tab-E" role="tabpanel" aria-labelledby="tabE">
+                        <!-- Tab Content Text -->
+                        <div class="tab-content-text">
+                            <h3> What will you do ? </h3>
+                            <p>market We are deeply inspired by the work of Sir Alfred Nobel. Our vision is to make the world a better place. sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna liquyam erat.</p>
+                            <h3> What makes you a match for us? </h3>
+                            <p>8 We are deeply inspired by the work of Sir Alfred Nobel. Our vision is to make the world a better place. sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna liquyam erat.</p>
+                            <a href="/home/intern_design" class="btn uza-btn mt-30">Apply</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Border -->
+    <div class="container">
+        <br> <br>
+        <div class="border-line"></div>
+    </div>
+    <!-- About Background Pattern -->
+    <div class="about-bg-pattern">
+        <img src="{% static 'img/core-img/curve-2.png' %}" alt="">
+    </div>
+</section>
+<!-- ***** About Us Area End ***** -->
+<!-- ***** About Us Area Start ***** -->
+<section class="uza-about-us-area section-padding-00">
+    <div class="container">
+        <br><br>
+        <!-- About Us Content -->
+        <div class="section-heading mb-5">
+            <h2>Technology</h2>
+            <p>We are a team of engineers, data scientists, travelers, musicians and entrepreneurs united by a common mission — to help data team do their lives' best work.</p>
+        </div>
+        <div class="about-us-content mb-10">
+            <div class="about-tab-area">
+                <ul class="nav nav-tabs mb-50" id="mona_modelTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="tabA" data-toggle="tab" href="#tab-A" role="tab" aria-controls="tab-A" aria-selected="false">Frontend Engineering</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " id="tabB" data-toggle="tab" href="#tab-B" role="tab" aria-controls="tab-B" aria-selected="false">Backend Engineering</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tabF" data-toggle="tab" href="#tab-F" role="tab" aria-controls="tab-F" aria-selected="true">Product & Engineering</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tabG" data-toggle="tab" href="#tab-G" role="tab" aria-controls="tab-G" aria-selected="true">Data Science</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Mona Tab Content -->
+            <div class="about-tab-content">
+                <div class="tab-content" id="mona_modelTabContent">
+                    <div class="tab-pane fade show active" id="tab-F" role="tabpanel" aria-labelledby="tabF">
+                        <!-- Tab Content Text -->
+                        <div class="tab-content-text">
+                            <h3> PE What will you do ? </h3>
+                            <p> research At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna liquyam erat.</p>
+                            <h3> What makes you a match for us? </h3>
+                            <p>6 We are deeply inspired by the work of Sir Alfred Nobel. Our vision is to make the world a better place. sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna liquyam erat.</p>
+                            <a href="/home/team_productengineering" class="btn uza-btn mt-30">Apply</a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show " id="tab-G" role="tabpanel" aria-labelledby="tabG">
+                        <!-- Tab Content Text -->
+                        <div class="tab-content-text">
+                            <h3> What will you do ? </h3>
+                            <p>Create data tools and processes using statistical methods and models for our Data Science team to analyze trends in diverse data sets that help our users across industries.</p>
+                            <p>Work with Team to delve deep into diverse and unstructured data for driving meaningful insights to build scalable predictive models and scale our work — all while learning a new Python library to better manipulate language inconsistencies and images..</p>
+                            <p>Decode parameters from internal APIs, web scraping, or parsing PDFs as you devise novel ways of searching through the data and drawing correlations and output them in structure.</p>
+                            <h3> What makes you a match for us? </h3>
+                            <p>7 You can fluently work with R or Python and can easily manipulate massive data sets.</p>
+                            <p>You do not prefer writing the same logic of code twice, and love to write scalable, reusable code to process data and know when to use bar charts instead of line charts.</p>
+                            <p>You have some experience of working with big data problems or have a background and strong interest in economics, statistics, mathematics, computer science or related fields.</p>
+                            <a href="/home/team_datascience" class="btn uza-btn mt-30">Apply</a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show " id="tab-H" role="tabpanel" aria-labelledby="tabH">
+                        <!-- Tab Content Text -->
+                        <div class="tab-content-text">
+                            <h3> What will you do ? </h3>
+                            <p>market We are deeply inspired by the work of Sir Alfred Nobel. Our vision is to make the world a better place. sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna liquyam erat.</p>
+                            <h3> What makes you a match for us? </h3>
+                            <p>8 We are deeply inspired by the work of Sir Alfred Nobel. Our vision is to make the world a better place. sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna liquyam erat.</p>
+                            <a href="/home/team_strategyoperation" class="btn uza-btn mt-30">Apply</a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show" id="tab-I" role="tabpanel" aria-labelledby="tabI">
+                        <!-- Tab Content Text -->
+                        <div class="tab-content-text">
+                            <h3>What will you do ? </h3>
+                            <p>Work across verticals to make the user experience on our platform simple and seamless and implement the background functionality in the most cost-effective and memory-friendly way. </p>
+                            <p>Abstract away complex data interactions with easy-to-use APIs that will power web applications and support our Engineering Team manage end-to-end of the backend for our products. </p>
+                            <p>Set up SDKs to interact with the backend over HTTP in the most secure and object-oriented way and own, scale and maintain the compute and storage infrastructure for the various product teams.</p>
+                            <h3> What makes you a match for us? </h3>
+                            <p>5 You have a desire to deepen your knowledge in current technologies as well as learn new ones.</p>
+                            <p>You care about scale, quality, structured readable code (preferably in MVC patterns), cross-platform and cross-browser issues, and module reusability, even before approaching the problem.</p>
+                            <p>You are proficient or at least have experience with technologies like Angular.js,React, PHP,Node.js, Python, MongoDB, Django, Cloud service providers(AWS/Google cloud), and Docker ecosystem. </p>
+                            <a href="/home/team_research" class="btn uza-btn mt-30">Apply</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Border -->
+    <div class="container">
+        <br> <br>
+        <div class="border-line"></div>
+    </div>
+    <!-- About Background Pattern -->
+    <div class="about-bg-pattern">
+        <img src="{% static 'img/core-img/curve-2.png' %}" alt="">
+    </div>
+</section>
+<!-- ***** About Us Area End ***** -->
+<!-- Border -->
+<br><br><br><br>
+<!-- ***** Cool Facts Area Start ***** -->
+<div class="uza-cf-area section-padding-10-00">
+    <div class="container">
+        <div class="row">
+            <!-- Single Cool Facts Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-cf-area d-flex align-items-center mb-80">
+                    <h2><span class="counter">6</span></h2>
+                    <div class="cf-text">
+                        <h6>Strategy<br>Project</h6>
+                    </div>
+                    <div class="bg-icon"><i class="icon_piechart"></i></div>
+                </div>
+            </div>
+            <!-- Single Cool Facts Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-cf-area d-flex align-items-center mb-80">
+                    <h2><span class="counter">12</span></h2>
+                    <div class="cf-text">
+                        <h6>Design<br>Project</h6>
+                    </div>
+                    <div class="bg-icon"><i class="icon_heart_alt"></i></div>
+                </div>
+            </div>
+            <!-- Single Cool Facts Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-cf-area d-flex align-items-center mb-80">
+                    <h2><span class="counter">8</span></h2>
+                    <div class="cf-text">
+                        <h6>Research<br>Project</h6>
+                    </div>
+                    <div class="bg-icon"><i class="icon_book_alt"></i></div>
+                </div>
+            </div>
+            <!-- Single Cool Facts Area -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-cf-area d-flex align-items-center mb-40">
+                    <h2><span class="counter">24</span></h2>
+                    <div class="cf-text">
+                        <h6>Mobile<br>Project</h6>
+                    </div>
+                    <div class="bg-icon"><i class="icon_profile"></i></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="border-line"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ***** Cool Facts Area End ***** -->
+<!-- Border -->
+<!-- ***** About Us Area End ***** -->
+<!-- ****** Gallery Area Start ****** -->
+<section class="uza-portfolio-area section-padding-10">
+    <!-- Section Heading -->
+    <div class="col-12">
+        <div class="section-heading text-center"> <br> <br>
+            <h2>MEET THE TEAM</h2>
+            <p>Join us and be a part in shaping the future. Because some deeds are noble.</p>
+        </div>
+    </div>
+    <!-- Portfolio Menu -->
+    <div class="portfolio-menu text-center mb-40">
+        <!-- ***** Border Bottom ***** -->
+        <div class="container">
+            <div class="border-bottom"></div> <br>
+        </div>
+        <button class="btn active" data-filter="*">All</button>
+        <button class="btn" data-filter=".intern">Frontend</button>
+        <button class="btn" data-filter=".team">Backend</button>
+        <button class="btn" data-filter=".intern">Data Science</button>
+        <button class="btn" data-filter=".volunteer">Research</button>
+        <button class="btn" data-filter=".team">Strategy & Operations</button>
+        <button class="btn" data-filter=".volunteer">Linguist</button>
+        <br> <br>
+        <div class="container">
+            <div class="border-bottom"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row uza-portfolio">
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item intern">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item volunteer">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item team">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item intern">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item intern">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item volunteer">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item team">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Portfolio Item -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 single-portfolio-item intern">
+                <div class="single-team-slide ">
+                    <img src="{% static 'img/bg-img/9.jpg' %}" alt="">
+                    <!-- Overlay Effect -->
+                    <div class="overlay-effect">
+                        <h4>Mainak Roy</h4>
+                        <p>Insight, forecasting, predction, survey </p>
+                    </div>
+                    <!-- Social Info -->
+                    <div class="team-social-info">
+                        <a href="#" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="linkedIn" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-linkedIn"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ****** Gallery Area End ****** -->
+<!-- ***** About Us Area Start ***** -->
+<section class="uza-about-us-area section-padding-00">
+    <div class="container">
+        <div class="about-us-content mb-10">
+            <!-- Mona Tab Content -->
+            <div class="about-tab-content">
+                <div class="tab-content" id="mona_modelTabContent">
+                    <div class="tab-pane fade show active" role="tabpanel">
+                        <!-- Tab Content Text -->
+                        <div align="center" class="tab-content-text">
+                            <a href="./community.html" class="btn uza-btn mt-10">See More</a><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Background Pattern -->
+    <div class="about-bg-pattern">
+        <img src="{% static 'img/core-img/curve-2.png' %}" alt="">
+    </div>
+</section>
+<!-- ***** About Us Area End ***** -->
+<div class="container">
+    <div class="border-line mt-40"></div>
+</div>
+<br><br><br>
+<!-- ***** CTA, Testimonial & CFA Area Start ***** -->
+<section class="cta-testimonial-cfa-area">
+    <!-- Background Curve -->
+    <div class="cta-testimonial-cfa-bg-curve">
+        <img src="{% static 'img/core-img/curve-6.png' %}" alt="">
+    </div>
+    <!-- ***** Client Feedback Area Start ***** -->
+    <div class="clients-feedback-area section-padding-0-10 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Testimonial Slides -->
+                    <div class="testimonial-slides owl-carousel">
+                        <!-- Single Testimonial Slide -->
+                        <div class="single-testimonial-slide d-flex align-items-center">
+                            <!-- Testimonial Content -->
+                            <div class="testimonial-content">
+                                <h4>“Colorlib Ltd’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and profitable.”</h4>
+                                <!-- Ratings -->
+                                <div class="ratings">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                </div>
+                                <!-- Author Info -->
+                                <div class="author-info">
+                                    <h5>Mainak Roy<span>- Simple Education Foundation</span></h5>
+                                </div>
+                                <!-- Quote Icon -->
+                                <div class="quote-icon"><img src="{% static 'img/core-img/quote.png' %}" alt=""></div>
+                            </div>
+                            <!-- Testimonial Thumbnail -->
+                            <div class="testimonial-thumbnail">
+                                <img src="{% static 'img/bg-img/24.jpg' %}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Client Feedback Area End ***** -->
+    <br>
+</section>
+<!-- ***** CTA, Testimonial & CFA Area End ***** -->
+<!-- ***** Border Bottom ***** -->
+<div class="container">
+    <br> <br>
+    <div class="border-bottom"></div> <br> <br>
+</div>
+{% endblock %}

@@ -1,0 +1,161 @@
+{% extends 'home/basic.html' %}
+{% block title %} Intern Detail | Trilingo{% endblock %}
+{% load static %}
+{% block body %}
+<div class="breadcrumb-area">
+    <div class="container h-100">
+        <div class="row h-100 align-items-end">
+            <div class="col-12">
+                <div class="breadcumb--con">
+                    <h2 class="title">Application</h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/home"><i class="fa fa-home"></i> Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Application</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Background Curve -->
+    <div class="breadcrumb-bg-curve">
+        <img src="{% static 'img/core-img/curve-5.png' %}" alt="">
+    </div>
+</div>
+<!-- ***** Breadcrumb Area End ***** -->
+<!-- ***** Contact Area Start ***** -->
+<section class="uza-contact-area section-padding-80">
+    <div class="container">
+        <div class="row justify-content-between">
+            <!-- Contact Form -->
+            <div class="col-12 col-lg-8">
+                <h2><b>Intern Details:</b></h2>
+                <br>
+                <div class="uza-contact-form mb-80">
+                    <h3>Name : <b>{{interns.firstname}} {{interns.lastname}}</b></h3><br>
+                    <h4>Email: <b>{{interns.email}}</b></h4><br>
+                    <h5>Phone: {{interns.phone}}</h5><br>
+                    <h4><b>CV:</b> <a href="{{interns.resume}}"><button class="btn uza-btn btn-3 mt-22 mx-4">View CV</button></a></h4>
+                    <h4>Application Id: <b>{{interns.app_id}}</b></h4><br>
+                    <h4>Applied For: <b>{{interns.position}}</b></h4><br><br>
+                    <h6>What are 3 reasons you're excited to work at Alfred?:</h6><br>
+                    <p> {{interns.aspiration}}</p>
+                    <br>
+                    <h6>What skills and experience do you bring that will make you successful in this role?:</h6>
+                    <br>
+                    <p></p>{{interns.skills}}</p>
+                    <br>
+                    <h6>What is the one project/product you have worked on that you are really proud of ? What makes this project so special for you?:</h6><br>
+                    <p>{{interns.project}}</p>
+                    <br>
+                    <h6> What tech stack do you currently work on?:</h6><br>
+                    <p>{{interns.techstack}}</p>
+                    <br>
+                    <h6>Which academic year are you in?:</h6>
+                    <br>
+                    <p>{{interns.education}}</p>
+                    <br>
+                    <h6>When are you available for the internship? (Please specify the expected start and end dates.):</h6>
+                    <br>
+                    <p>{{interns.availablity}}</p>
+                    <br>
+                    <h6>Other Details: {{interns.other}}</h6>
+                    <br>
+                    <a href="/home/selectintern1Q12rty3"><button class="btn uza-btn btn-3 mt-15">Assign Task 1</button></a>
+                    <a href="/home/selectintern2Q12rty3"><button class="btn uza-btn btn-3 mt-15">Assign Task 2</button></a>
+                    <a href="/home/selectintern3Q12rty3"><button class="btn uza-btn btn-3 mt-15">Assign Task 3</button></a>
+                    <hr>
+                    <a href="../../home/viewsolutionQ12rty3"><button class="btn uza-btn btn-3 mt-15">View Solution 1</button></a>
+                    <a href="../../home/viewsolution2Q12rty3"><button class="btn uza-btn btn-3 mt-15">View Solution 2</button></a>
+                    <a href="../../home/viewsolution3Q12rty3"><button class="btn uza-btn btn-3 mt-15">View Solution 3</button></a>
+                </div>
+            </div>
+            <!-- Single Contact Card -->
+            <div class="col-12 col-lg-3">
+                <div class="contact-sidebar-area mb-80">
+                    <!-- Single Sidebar Area -->
+                    <div class="single-contact-card mb-50">
+                        <h5>Date of Application: <b>{{interns.date}}</b></h5><br>
+                        <h6>Linkedin Url: <a href="{{interns.linkedin}}">{{interns.linkedin}}</a></h6><br>
+                        <h6>Github Url: <a href="{{interns.github}}">{{interns.github}}</a></h6>
+                        <br>
+                        <h6>Portfolio Url: <a href="{{interns.portfolio}}">{{interns.portfolio}}</a></h6>
+                        <br>
+                        <h6>Linkedin Url: <a href="{{interns.linkedin}}">{{interns.linkedin}}</a></h6>
+                        <br>
+                        <h6>
+                            Share links to code samples for your previous work : </h6><br>
+                        <p><a href="{{interns.protfoliolink}}">{{interns.protfoliolink}}</a></p>
+                        <br>
+                        <h6>Twitter: <a href="{{interns.twitter}}">{{interns.twitter}}</a></h6>
+                        <br>
+                        <h6>
+                            If you have contributed to open source, share code commit links.: </h6><br>
+                        <p><a href="{{interns.opensourcecommit}}">{{interns.opensourcecommit}}</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Contact Area End ***** -->
+<!-- ***** Footer Area Start ***** -->
+<footer class="footer-area section-padding-80-0">
+    <div class="container">
+        <div class="row justify-content-between">
+            <!-- Single Footer Widget -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-footer-widget mb-80">
+                    <!-- Widget Title -->
+                    <h4 class="widget-title">Contact Us</h4>
+                    <!-- Footer Content -->
+                    <div class="footer-content mb-15">
+                        <h5>+91 9199769697</h5>
+                        <p><b>alfredtechnologies@gmail.com</b></p>
+                        <p>Sushma niketan 613 Rd 03 Ward 13 Khunti, Ranchi, JH, IN <br> </p>
+                    </div>
+                    <p class="mb-0">Mon - Fri: 9:00 - 19:00 <br>
+                        Closed on Weekends</p>
+                </div>
+            </div>
+            <!-- Single Footer Widget -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-footer-widget mb-80">
+                    <!-- Widget Title -->
+                    <h4 class="widget-title">Products</h4>
+                    <!-- Nav -->
+                    <nav>
+                        <ul class="our-link">
+                            <li><a href="/home/trilingo">Trilingo</a></li>
+                            <li><a href="/home/herculesStore">Hercules Store</a></li>
+                            <li><a href="/home/tribalMatrimony">Tribal Matrimony</a></li>
+                            <li><a href="/home/mundaDhaba">Munda Dhaba</a></li>
+                            <li><a href="/home/jharkhandmatrimony">Jharkhand Matrimony</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- Single Footer Widget -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="single-footer-widget mb-80">
+                    <!-- Widget Title -->
+                    <h4 class="widget-title">About</h4>
+                    <!-- Nav -->
+                    <nav>
+                        <ul class="our-link">
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Mission</a></li>
+                            <li><a href="#">Philosophy</a></li>
+                            <li><a href="#">Internship</a></li>
+                            <li><a href="#">Volunteer</a></li>
+                            <li><a href="#">Team</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- Single Footer Widget -->
+        </div>
+    </div>
+</footer>
+{% endblock %}
