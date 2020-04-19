@@ -26,7 +26,7 @@ SECRET_KEY = 'm=2sdcp1lwv3&w)px)@t&6(q5w3+6gx$t99jct=^vc=tdsz_hs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['3.6.61.31',"alfredtechnologies.in"]
 
 # STATIC_DIRS = [
 #     os.path.join(BASE_DIR, 'static'),    
